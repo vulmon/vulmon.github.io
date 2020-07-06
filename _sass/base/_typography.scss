@@ -1,0 +1,133 @@
+//---------------------------
+// Typography
+//---------------------------
+
+body {
+  color: $color__type;
+  font-size: $font-size__base;
+  font-weight: $font-weight__light;
+  font-family: $font__serif;
+  line-height: $line-height__base;
+  background-color: #fafafa;
+
+  -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font__serif;
+  font-size: $font-size__base;
+  font-weight: $font-weight__light;
+  margin: 0 0 $line-height__medium;
+  line-height: initial;
+
+  @media #{$medium-down} {
+    font-size: $font-size__medium;
+  }
+
+  a { text-decoration: none; }
+}
+
+.post-content {
+  h1 { font-size: 32px; }
+  h2 { font-size: 28px; }
+  h3 { font-size: 26px; }
+  h4 { font-size: 22px; }
+  h5 { font-size: 19px; }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: $font-weight__bold;
+  }
+
+  p,
+  ul,
+  ol {
+    margin-bottom: $line-height__medium;
+  }
+
+  li {
+    margin: 0 0 half($line-height__medium);
+  }
+}
+
+p {
+  margin: 0 0 $line-height__base;
+
+  &.font-medium {
+    margin: 0 0 $line-height__medium;
+  }
+
+  &.font-small {
+    margin: 0 0 $line-height__small;
+  }
+
+  &.font-tiny {
+    margin: 0 0 $line-height__tiny;
+  }
+
+  @media #{$medium-down} {
+    margin: 0 0 $line-height__medium;
+  }
+}
+
+blockquote {
+  margin: 0;
+  padding-left: $line-height__small;
+  font-style: italic;
+  border-left: 3px solid $color__type;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: $border-color;
+  margin: 0 0 $line-height__base;
+
+  @media #{$medium-down} {
+    margin: 0 0 ($line-height__medium);
+  }
+}
+
+ul,
+ol {
+  margin: 0 0 $line-height__base;
+
+  ul, ol {
+    margin: 0;
+  }
+
+  @media #{$medium-down} {
+    margin: 0 0 $line-height__medium;
+  }
+}
+
+a {
+  color: $color__type;
+  transition: $base-transition-speed;
+
+  &:visited {
+    color: $color__type;
+  }
+
+  &:hover {
+    color: $color__type--hover;
+  }
+
+  &:active {
+    color: $color__type;
+  }
+
+  &.custom {
+    text-decoration: none;
+  }
+}

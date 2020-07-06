@@ -1,0 +1,49 @@
+//---------------------------
+// Box
+//---------------------------
+
+.box {
+  padding: $line-height__medium;
+  margin-bottom: $line-height__medium;
+  overflow: hidden;
+  border: 1px solid $border-color;
+
+  @media #{$large-up} {
+    padding: $line-height__base;
+    margin-bottom: $line-height__base;
+  }
+
+  &--author { background-color: $grey-bg; }
+
+  a { text-decoration: none; }
+
+  .page-header & {
+    background-color: #fff;
+  }
+}
+
+.box__icon {
+  float: left;
+  width: $line-height__base;
+  margin-right: $line-height__base / 3;
+}
+
+.box__title {
+  margin: 0;
+  font-weight: 300;
+  line-height: $line-height__medium;
+}
+
+.box__body {
+  @media #{$medium-up} {
+    overflow: hidden;
+  }
+}
+
+.box__text {
+  margin-top: half($line-height__small);
+  margin-bottom: 0;
+
+  font-size: $font-size__small;
+  line-height: $line-height__small;
+}

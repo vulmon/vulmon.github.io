@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+{% assign author = site.authors[page.author] %}
+
+<div class="wrapper">
+  <div class="row">
+
+    {% if page.image %}
+      <div class="column column--center medium-10 large-10">
+        <div class="grey-bg CoverImage FlexEmbed FlexEmbed--16by9" style="background-image: url({{ page.image | prepend: site.baseurl }})"></div>
+      </div>
+    {% endif %}
+
+    <div class="column column--center medium-10 large-10">
+      <article class="post {% unless page.image %} post--no-image {% endunless %}" itemscope itemtype="http://schema.org/BlogPosting">
+
+        {% if page.image %}
+          <meta itemprop="og:image" content="{{ base_path }}{{ page.image }}">
+        {% endif %}
+
+        <header class="text-center post__header">
+          <h2 class="post__title" itemprop="name headline">{{ page.title }}</h2>
+          <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+        </header>
+
+        <div class="post-content" itemprop="articleBody">
+          {{ content }}
+        </div>
+
+        <div class="row">
+          <div class="column large-10">
+            <div class="post__tags">
+              {% for tag in page.tags %}
+                <a href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a>
+              {% endfor %}
+            </div>
+          </div>
+          <div class="column large-2">
+            {% include share.html %}
+          </div>
+        </div>
+
+        <hr>
+
+        {% if page.author %}
+          {% include author.html %}
+        {% endif %}
+
+      </article>
+    </div>
+
+  </div> <!-- row-->
+</div> <!-- wrapper -->

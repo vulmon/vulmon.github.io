@@ -1,0 +1,96 @@
+//---------------------------
+// Post
+//---------------------------
+
+.post-card {
+  margin-bottom: $line-height__medium;
+  border-bottom: 1px solid $border-color;
+  background: #fff;
+
+  &__header {
+    margin-bottom: half($line-height__base);
+  }
+
+  &__image {
+    transition: $base-transition-speed;
+  }
+
+  &__info {
+    padding: $line-height__medium;
+    text-align: center;
+  }
+
+  &__title {
+    line-height: $line-height__medium;
+    margin-bottom: 0;
+
+    a {
+      display: inline;
+      border-bottom: none;
+      transition: $base-transition-speed;
+      background-image: linear-gradient(180deg, transparent 65%, #FFF5D1 0);
+
+      background-size: 0 100%;
+      background-repeat: no-repeat;
+      transition: background-size .5s ease;
+
+      &:hover {
+        color: $color__type; background-size: 100% 100%;
+      }
+    }
+  }
+
+  &__meta {
+    margin-bottom: quarter($line-height__base);
+    font-size: $font-size__tiny;
+    line-height: $line-height__small;
+    color: $color__type--hover;
+
+    a { color: $color__type--hover; text-decoration: none; }
+  }
+
+  &:hover {
+    .post-card__image {
+      opacity: 0.9;
+    }
+
+    .post-card__title a {
+      background-size: 100% 100%;
+    }
+  }
+
+  &--featured {
+    &__icon {
+      position: absolute;
+      bottom: quarter($line-height__base);
+      left: quarter($line-height__base);
+      fill: #fff;
+    }
+  }
+
+  @media #{$large-up} {
+    margin-bottom: $line-height__base;
+  }
+}
+
+// Make post cards the same height
+
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  // Safari (iPad)
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+
+  .post-card-wrap {
+    display: flex;
+
+    // Safari (iPad)
+    display: -webkit-flex;
+  }
+
+  .post-card {
+    width: 100%;
+  }
+}

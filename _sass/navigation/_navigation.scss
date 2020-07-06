@@ -1,0 +1,47 @@
+//---------------------------
+// Navigation
+//---------------------------
+
+.navigation {
+  text-align: center;
+
+  li {
+    display: inline-block;
+    margin-right: half($line-height__base);
+
+    font-size: $font-size__medium;
+    line-height: $line-height__base;
+
+    @media #{$medium-down} {
+      display: block;
+      margin-right: 0;
+    }
+
+    &:last-child { margin-right: 0; }
+  }
+
+  a {
+    transition: $base-transition-speed;
+    text-decoration: none;
+    background-image: linear-gradient(180deg, transparent 60%, #FFF5D1 0);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size .5s ease;
+
+    @media #{$medium-down} {
+      display: block;
+      padding-top: quarter($line-height__base);
+      padding-bottom: quarter($line-height__base);
+      border-bottom: 1px solid $border-color;
+    }
+
+    &:hover {
+      color: $color__type;
+      background-size: 100% 100%;
+    }
+  }
+}
+
+.site-header__navigation {
+  @media #{$medium-up} { text-align: right; }
+}

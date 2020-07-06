@@ -1,0 +1,59 @@
+//---------------------------
+// Post Page
+//---------------------------
+
+.post {
+  margin-bottom: $line-height__base;
+  padding: $line-height__medium;
+  background-color: #fff;
+
+  border-style: solid;
+  border-width: 0 1px 1px;
+  border-color: $border-color;
+
+  &--no-image { border-width: 1px; }
+
+  @media #{$medium-up} {
+    padding: $line-height__base;
+  }
+
+  @media #{$large-up} {
+    padding: double($line-height__medium) double($line-height__base);
+  }
+
+  &__header {
+    margin-bottom: half($line-height__medium);
+  }
+
+  &__title {
+    margin-bottom: half($line-height__medium);
+    font-size: double($font-size__tiny);
+
+    @media #{$large-up} {
+      font-size: double($font-size__medium);
+    }
+  }
+
+  &__date {
+    font-size: $font-size__small;
+    line-height: $line-height__small;
+    display: block;
+
+    color: $color__type--hover;
+  }
+
+  &-content {
+    a {
+      background-image: linear-gradient(to bottom, $color__type, $color__type);
+      text-shadow: -1px -1px 0 #FDFDFD, 1px -1px 0 #FDFDFD, -1px 1px 0 #FDFDFD, 1px 1px 0 #FDFDFD;
+      background-repeat: repeat-x;
+      background-size: 1px 1px;
+      background-position: 0 96%;
+      text-decoration: none;
+
+      &:hover {
+        background-image: linear-gradient(to bottom, $color__type--hover, $color__type--hover);
+      }
+    }
+  }
+}

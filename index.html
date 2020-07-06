@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="wrapper">
+
+  <div class="row">
+    <div class="post-list">
+      {% for post in paginator.posts %}
+        {% include post-card.html %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="row row--full">
+    {% include pagination.html %}
+  </div>
+
+</div>

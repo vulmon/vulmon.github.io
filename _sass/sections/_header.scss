@@ -1,0 +1,40 @@
+//---------------------------
+// Header
+//---------------------------
+
+.logo {
+  display: block;
+  margin-bottom: 0;
+  line-height: $line-height__base;
+
+  @media #{$medium-down} { line-height: $line-height__medium; }
+
+  a {
+    transition: $base-transition-speed;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+    &:hover { color: $color__type--hover; }
+  }
+
+  &__img {
+    max-height: $line-height__base;
+    vertical-align: middle;
+  }
+}
+
+.site-header {
+  position: relative;
+  padding: half($line-height__medium) 0;
+  border-bottom: 1px solid $border-color;
+  line-height: $line-height__medium;
+  background-color: #fff;
+
+  @media #{$large-up} {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+  }
+
+  @media #{$large-up} { padding: half($line-height__base) 0; }
+}

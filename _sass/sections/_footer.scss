@@ -1,0 +1,31 @@
+//---------------------------
+// Footer
+//---------------------------
+
+.footer {
+  padding: half($line-height__base)  0;
+  background-color: #fff;
+
+  @media #{$medium-up} { padding: double($line-height__medium) 0; }
+
+  &__section {
+    margin-bottom: half($line-height__base);
+
+    &:last-child { margin-bottom: 0; }
+  }
+}
+
+.social-icons {
+
+  li {
+    display: inline-block;
+    vertical-align: super;
+  }
+
+  .icon {
+    fill: $color__type;
+    transition: $base-transition-speed;
+
+    &:hover { fill: $color__type--hover; }
+  }
+}

@@ -1,0 +1,56 @@
+//---------------------------
+// Off Canvas
+//---------------------------
+
+.off-canvas-toggle {
+  display: none;
+
+  @media #{$medium-down} {
+    float: right;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: half($line-height__tiny);
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    font-size: $font-size__small;
+    cursor: pointer;
+  }
+}
+
+@media #{$medium-down} {
+
+  // prevent horizontal scroll during off-canvas
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .off-canvas-content {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: $off-canvas-width;
+    height: 100%;
+
+    background-color: #fff;
+    border-left: 1px solid $border-color;
+    -webkit-transform: translate3d(0px, 0px, 0px) translateX($off-canvas-width);
+            transform: translate3d(0px, 0px, 0px) translateX($off-canvas-width);
+    -webkit-transition: all $base-transition-speed cubic-bezier(0.16, 0.63, 0.45, 0.98) 0s;
+            transition: all $base-transition-speed cubic-bezier(0.16, 0.63, 0.45, 0.98) 0s;
+  }
+
+  .off-canvas-container {
+    -webkit-transform: translate3d(0, 0, 0) translateX(0);
+            transform: translate3d(0, 0, 0) translateX(0);
+    -webkit-transition: all $base-transition-speed cubic-bezier(0.16, 0.63, 0.45, 0.98) 0s;
+            transition: all $base-transition-speed cubic-bezier(0.16, 0.63, 0.45, 0.98) 0s;
+
+    &.is-active {
+      -webkit-transform: translate3d(0px, 0px, 0px) translateX(- $off-canvas-width);
+              transform: translate3d(0px, 0px, 0px) translateX(- $off-canvas-width);
+    }
+  }
+}
