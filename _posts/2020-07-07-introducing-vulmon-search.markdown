@@ -12,7 +12,7 @@ Vulnerabilities are published on different platforms and in different formats. T
 
 [Vulmon Search][vulmon-search]{:target="_blank"} is a completely free vulnerability search engine that is developed under Vulmon Project. Since [Vulmon Search][vulmon-search]{:target="_blank"} uses Vulmon vulnerability intelligence infrastructure, it provides detailed information that no other tool can do. Vulmon Search aims to give comprehensive vulnerability information through a very simple user interface. You can search for any vulnerability related words on Vulmon Search. When you open a [vulnerability page][vulmon-search-details]{:target="_blank"}, you can access quite a lot of information about the vulnerability from one page. This information includes, but is not limited to, related exploits, GitHub repositories, vendor advisories, user comments and social media trends.
 
-One of the most important features of Vulmon Search is that it gives vulnerability [trend][vulmon-search-trends]{:target="_blank"} information. It is so important for cybersecurity researchers to know which vulnerabilities other cybersecurity researchers talk about. For that reason, security researchers should check the trends page of [Vulmon Search][vulmon-search]{:target="_blank"} daily to stay up-to-date.
+One of the most important features of Vulmon Search is that it gives vulnerability [trend][vulmon-search-trends]{:target="_blank"} information. It is so important for cybersecurity researchers to know which vulnerabilities other cybersecurity researchers talk about. For that reason, security researchers should check the [trends page][vulmon-search-trends]{:target="_blank"} of Vulmon Search daily to stay up-to-date.
 
 Feel free to [contact](mailto:info@vulmon.com) for anything.
 
