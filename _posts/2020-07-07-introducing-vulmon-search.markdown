@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introducing Vulmon Search"
-date:   2020-07-03 23:23:59 +0300
+date:   2020-07-07 23:23:59 +0300
 categories: Vulmon Search
 author: yavuz
 tags: [vulmon, vulnerability search engine, vulnerability intelligence, vulnerability]
