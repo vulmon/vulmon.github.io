@@ -5,7 +5,7 @@ date:   2020-07-07 01:00:00 +0300
 categories: Vulmon Search
 author: yavuz
 tags: [vulmon, vulnerability search engine, vulnerability intelligence, vulnerability]
-image: '/images/posts/1.png'
+image: '/images/posts/vulmon.png'
 ---
 
 Vulnerabilities are published on different platforms and in different formats. This makes it difficult to find vulnerability information and figure out the relationship between this information. Even if you are aware of a published vulnerability, it is very crucial to assess the real risk of the vulnerability. To do that, CVSS scores are essential sources but are not enough. You also need to take into account the exploitation probability of vulnerabilities.

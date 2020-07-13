@@ -5,10 +5,24 @@
     <description>Vulmon Blog. Vulmon is a vulnerability and exploit search engine with vulnerability intelligence features.</description>
     <link>http://midan-jekyll.aspirethemes.com/</link>
     <atom:link href="http://midan-jekyll.aspirethemes.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 05 Jul 2020 14:22:50 +0300</pubDate>
-    <lastBuildDate>Sun, 05 Jul 2020 14:22:50 +0300</lastBuildDate>
+    <pubDate>Tue, 14 Jul 2020 01:04:48 +0300</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2020 01:04:48 +0300</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
 
+    
+      <item>
+        <title>Vulmap: Online Local Vulnerability Scanners Project </title>
+        <description>&lt;p&gt;Are software installed at your computer up-to-date? If they are not which vulnerabilities they have? Vulmap is a project to give these answers to end-users and cybersecurity researchers in the fastest way. You can detect vulnerabilities at your computer and their exploits without any installation. The only thing you need to do is running these scripts from the command prompt.&lt;/p&gt;
+
+&lt;p&gt;You can get detailed information about the project from its Github page:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/vulmon/Vulmap&quot;&gt;https://github.com/vulmon/Vulmap&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 14 Jul 2020 00:00:00 +0300</pubDate>
+        <link>http://midan-jekyll.aspirethemes.com/vulmap/2020/07/14/vulmap-online-local-vulnerability-scanners-project/</link>
+        <guid isPermaLink="true">http://midan-jekyll.aspirethemes.com/vulmap/2020/07/14/vulmap-online-local-vulnerability-scanners-project/</guid>
+      </item>
     
       <item>
         <title>Introducing Vulmon Search</title>
@@ -16,14 +30,14 @@
 
 &lt;p&gt;&lt;a href=&quot;https://vulmon.com&quot; target=&quot;_blank&quot;&gt;Vulmon Search&lt;/a&gt; is a completely free vulnerability search engine that is developed under Vulmon Project. Since &lt;a href=&quot;https://vulmon.com&quot; target=&quot;_blank&quot;&gt;Vulmon Search&lt;/a&gt; uses Vulmon vulnerability intelligence infrastructure, it provides detailed information that no other tool can do. Vulmon Search aims to give comprehensive vulnerability information through a very simple user interface. You can search for any vulnerability related words on Vulmon Search. When you open a &lt;a href=&quot;https://vulmon.com/vulnerabilitydetails?qid=CVE-2017-5638&quot; target=&quot;_blank&quot;&gt;vulnerability page&lt;/a&gt;, you can access quite a lot of information about the vulnerability from one page. This information includes, but is not limited to, related exploits, GitHub repositories, vendor advisories, user comments and social media trends.&lt;/p&gt;
 
-&lt;p&gt;One of the most important features of Vulmon Search is that it gives vulnerability &lt;a href=&quot;https://vulmon.com/trends&quot; target=&quot;_blank&quot;&gt;trend&lt;/a&gt; information. It is so important for cybersecurity researchers to know which vulnerabilities other cybersecurity researchers talk about. For that reason, security researchers should check the trends page of &lt;a href=&quot;https://vulmon.com&quot; target=&quot;_blank&quot;&gt;Vulmon Search&lt;/a&gt; daily to stay up-to-date.&lt;/p&gt;
+&lt;p&gt;One of the most important features of Vulmon Search is that it gives vulnerability &lt;a href=&quot;https://vulmon.com/trends&quot; target=&quot;_blank&quot;&gt;trend&lt;/a&gt; information. It is so important for cybersecurity researchers to know which vulnerabilities other cybersecurity researchers talk about. For that reason, security researchers should check the &lt;a href=&quot;https://vulmon.com/trends&quot; target=&quot;_blank&quot;&gt;trends page&lt;/a&gt; of Vulmon Search daily to stay up-to-date.&lt;/p&gt;
 
 &lt;p&gt;Feel free to &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#105;&amp;#110;&amp;#102;&amp;#111;&amp;#064;&amp;#118;&amp;#117;&amp;#108;&amp;#109;&amp;#111;&amp;#110;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;contact&lt;/a&gt; for anything.&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 03 Jul 2020 23:23:59 +0300</pubDate>
-        <link>http://midan-jekyll.aspirethemes.com/vulmon/search/2020/07/03/introducing-vulmon-search/</link>
-        <guid isPermaLink="true">http://midan-jekyll.aspirethemes.com/vulmon/search/2020/07/03/introducing-vulmon-search/</guid>
+        <pubDate>Tue, 07 Jul 2020 01:00:00 +0300</pubDate>
+        <link>http://midan-jekyll.aspirethemes.com/vulmon/search/2020/07/07/introducing-vulmon-search/</link>
+        <guid isPermaLink="true">http://midan-jekyll.aspirethemes.com/vulmon/search/2020/07/07/introducing-vulmon-search/</guid>
       </item>
     
   </channel>
