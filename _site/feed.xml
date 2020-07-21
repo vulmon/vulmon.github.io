@@ -5,18 +5,46 @@
     <description>Vulmon Blog. Vulmon is a vulnerability and exploit search engine with vulnerability intelligence features.</description>
     <link>http://midan-jekyll.aspirethemes.com/</link>
     <atom:link href="http://midan-jekyll.aspirethemes.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 Jul 2020 01:04:48 +0300</pubDate>
-    <lastBuildDate>Tue, 14 Jul 2020 01:04:48 +0300</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2020 00:41:12 +0300</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2020 00:41:12 +0300</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
 
+    
+      <item>
+        <title>Introducing Vulmon Alerts: A Proactive Vulnerability Detection Approach</title>
+        <description>&lt;p&gt;Cybersecurity researchers discover dozens of new vulnerabilities every day. There were 17980 vulnerabilities published on just NVD in 2019. This means, on average, 50 new vulnerabilities are published daily. In this kind of environment, relying on periodic vulnerability scans has big risks. First, vulnerability scanner companies need some time to update their tools’ vulnerability databases. Then, their customers need some time to apply updates to vulnerability scanners in their environments. In addition to these time losses, if you consider that vulnerability scanning is done periodically (usually monthly), attackers have plenty of time to exploit “new” vulnerabilities.&lt;/p&gt;
+
+&lt;p&gt;Vulmon Project aims to provide the fastest, most accurate, and detailed information by using vulnerability intelligence methods. &lt;a href=&quot;https://alerts.vulmon.com&quot; target=&quot;_blank&quot;&gt;Vulmon Alerts&lt;/a&gt; is the second online tool of Vulmon Project after &lt;a href=&quot;https://vulmon.com&quot; target=&quot;_blank&quot;&gt;Vulmon Search&lt;/a&gt;. Vulmon Alerts basically makes you aware of newly published vulnerabilities that are of interest to you. With this proactive approach, you can apply critical software updates quickly without waiting for the results of vulnerability scans.&lt;/p&gt;
+
+&lt;p&gt;Vulmon Alerts takes advantage of Vulmon infrastructure, which is fed by more than 70 resources. It notifies you when your subscription queries hit a newly published vulnerability and allows you to take action. You can subscribe to any search query you want through the Vulmon Alerts dashboard. The query list below gives an idea about what kind of queries to which you can subscribe.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://alerts.vulmon.com/alerts?squery=tomcat&quot; target=&quot;_blank&quot;&gt;tomcat&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://alerts.vulmon.com/alerts?squery=cisco&quot; target=&quot;_blank&quot;&gt;cisco&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://alerts.vulmon.com/alerts?squery=remote%20code&quot; target=&quot;_blank&quot;&gt;remote code&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://alerts.vulmon.com/alerts?squery=injection&quot; target=&quot;_blank&quot;&gt;injection&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://alerts.vulmon.com/alerts?squery=wordpress&quot; target=&quot;_blank&quot;&gt;wordpress&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://alerts.vulmon.com/alerts?squery=wordpress%20injection&quot; target=&quot;_blank&quot;&gt;wordpress injection&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://alerts.vulmon.com/alerts?squery=wordpress%205.1&quot; target=&quot;_blank&quot;&gt;wordpress 5.1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As you can see, queries you can subscribe to are limited only by your imagination and needs. You can subscribe to any query, including, but not limited to, vendors, products, vulnerability types, researchers, or a combination of them. When your subscribed queries hit a new vulnerability, you will get daily e-mails. If daily e-mails are not enough for you, other options are instant slack notifications and API access.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions or feedback, visit the &lt;a href=&quot;https://alerts.vulmon.com/contactform&quot; target=&quot;_blank&quot;&gt;contact page&lt;/a&gt; for contact information.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 22 Jul 2020 00:00:00 +0300</pubDate>
+        <link>http://midan-jekyll.aspirethemes.com/vulmon/alerts/2020/07/22/introducing-vulmon-alerts-a-proactive-vulnerability-detection-approach/</link>
+        <guid isPermaLink="true">http://midan-jekyll.aspirethemes.com/vulmon/alerts/2020/07/22/introducing-vulmon-alerts-a-proactive-vulnerability-detection-approach/</guid>
+      </item>
     
       <item>
         <title>Vulmap: Online Local Vulnerability Scanners Project </title>
         <description>&lt;p&gt;Are software installed at your computer up-to-date? If they are not which vulnerabilities they have? Vulmap is a project to give these answers to end-users and cybersecurity researchers in the fastest way. You can detect vulnerabilities at your computer and their exploits without any installation. The only thing you need to do is running these scripts from the command prompt.&lt;/p&gt;
 
-&lt;p&gt;You can get detailed information about the project from its Github page:&lt;/p&gt;
+&lt;p&gt;You can check the Github page to review the project, which is also accepted by &lt;a href=&quot;https://twitter.com/yavuzatlas_/status/1160654191519571969&quot; target=&quot;_blank&quot;&gt;Defcon&lt;/a&gt; and &lt;a href=&quot;https://www.blackhat.com/asia-20/arsenal/schedule/index.html#vulmap-online-local-vulnerability-scanners-project-19251&quot; target=&quot;_blank&quot;&gt;Blackhat&lt;/a&gt; conferences.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/vulmon/Vulmap&quot;&gt;https://github.com/vulmon/Vulmap&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/vulmon/Vulmap&quot; target=&quot;_blank&quot;&gt;https://github.com/vulmon/Vulmap&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 14 Jul 2020 00:00:00 +0300</pubDate>
