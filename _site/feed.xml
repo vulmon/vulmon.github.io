@@ -5,14 +5,14 @@
     <description>Vulmon Blog. Vulmon is a vulnerability and exploit search engine with vulnerability intelligence features.</description>
     <link>http://midan-jekyll.aspirethemes.com/</link>
     <atom:link href="http://midan-jekyll.aspirethemes.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 10 Dec 2020 13:43:33 +0300</pubDate>
-    <lastBuildDate>Thu, 10 Dec 2020 13:43:33 +0300</lastBuildDate>
+    <pubDate>Thu, 10 Dec 2020 21:15:04 +0300</pubDate>
+    <lastBuildDate>Thu, 10 Dec 2020 21:15:04 +0300</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
 
     
       <item>
         <title>Vulnerabilities Used by Stolen FireEye Tools</title>
-        <description>&lt;p&gt;Cybersecurity firm FireEye &lt;a href=&quot;https://www.fireeye.com/blog/products-and-services/2020/12/fireeye-shares-details-of-recent-cyber-attack-actions-to-protect-community.html&quot;&gt;disclosed&lt;/a&gt; that they have been hacked, and their tools were stolen by attackers. These tools are used by FireEye for Red Team assessments.&lt;/p&gt;
+        <description>&lt;p&gt;Cybersecurity firm FireEye &lt;a href=&quot;https://www.fireeye.com/blog/products-and-services/2020/12/fireeye-shares-details-of-recent-cyber-attack-actions-to-protect-community.html&quot;&gt;disclosed&lt;/a&gt; that they have been hacked, and their tools have been stolen by attackers. These tools are used by FireEye for Red Team assessments.&lt;/p&gt;
 
 &lt;p&gt;Stolen tools may be disclosed by hackers soon. According to FireEye, “none of the tools contain zero-day exploits” and the tools are leveraging well-known CVEs. However, in the case of disclosure of the tools, the popularity of the vulnerabilities used by the tools will be increased among threat actors and exploited widely.&lt;/p&gt;
 
@@ -36,10 +36,18 @@
   &lt;li&gt;&lt;a href=&quot;https://vulmon.com/vulnerabilitydetails?qid=CVE-2018-8581&quot;&gt;CVE-2018-8581&lt;/a&gt;: Microsoft Exchange Server elevation of privilege vulnerability&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://vulmon.com/vulnerabilitydetails?qid=CVE-2019-8394&quot;&gt;CVE-2019-8394&lt;/a&gt;: Zoho ManageEngine ServiceDesk Plus (SDP) unauthenticated file upload&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;script&gt;
+
+var aaa = document.getElementsByClassName(&quot;post__date&quot;)[0];
+aaa.textContent=&quot;Dec 12, 2020&quot;
+
+&lt;/script&gt;
+
 </description>
         <pubDate>Wed, 22 Jul 2020 00:00:00 +0300</pubDate>
-        <link>http://midan-jekyll.aspirethemes.com/vulmon/alerts/2020/07/22/here-are-vulnerabilities-used-by-stolen-fireeye-tools/</link>
-        <guid isPermaLink="true">http://midan-jekyll.aspirethemes.com/vulmon/alerts/2020/07/22/here-are-vulnerabilities-used-by-stolen-fireeye-tools/</guid>
+        <link>http://midan-jekyll.aspirethemes.com/vulmon/alerts/2020/07/22/vulnerabilities-used-by-stolen-fireeye-tools/</link>
+        <guid isPermaLink="true">http://midan-jekyll.aspirethemes.com/vulmon/alerts/2020/07/22/vulnerabilities-used-by-stolen-fireeye-tools/</guid>
       </item>
     
       <item>

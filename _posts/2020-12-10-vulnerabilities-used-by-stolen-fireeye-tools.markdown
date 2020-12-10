@@ -30,3 +30,11 @@ Here is the list of vulnerabilities FireEye tools use:
 * [CVE-2017-11774](https://vulmon.com/vulnerabilitydetails?qid=CVE-2017-11774): Remote code execution in Microsoft Outlook via specially crafted URI (phishing) also known as Microsoft Outlook Security Feature Bypass Vulnerability
 * [CVE-2018-8581](https://vulmon.com/vulnerabilitydetails?qid=CVE-2018-8581): Microsoft Exchange Server elevation of privilege vulnerability
 * [CVE-2019-8394](https://vulmon.com/vulnerabilitydetails?qid=CVE-2019-8394): Zoho ManageEngine ServiceDesk Plus (SDP) unauthenticated file upload
+
+
+<script>
+
+var aaa = document.getElementsByClassName("post__date")[0];
+aaa.textContent="Dec 12, 2020"
+
+</script>
