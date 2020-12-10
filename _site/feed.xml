@@ -5,10 +5,42 @@
     <description>Vulmon Blog. Vulmon is a vulnerability and exploit search engine with vulnerability intelligence features.</description>
     <link>http://midan-jekyll.aspirethemes.com/</link>
     <atom:link href="http://midan-jekyll.aspirethemes.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 22 Jul 2020 00:41:12 +0300</pubDate>
-    <lastBuildDate>Wed, 22 Jul 2020 00:41:12 +0300</lastBuildDate>
+    <pubDate>Thu, 10 Dec 2020 13:43:33 +0300</pubDate>
+    <lastBuildDate>Thu, 10 Dec 2020 13:43:33 +0300</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
 
+    
+      <item>
+        <title>Vulnerabilities Used by Stolen FireEye Tools</title>
+        <description>&lt;p&gt;Cybersecurity firm FireEye &lt;a href=&quot;https://www.fireeye.com/blog/products-and-services/2020/12/fireeye-shares-details-of-recent-cyber-attack-actions-to-protect-community.html&quot;&gt;disclosed&lt;/a&gt; that they have been hacked, and their tools were stolen by attackers. These tools are used by FireEye for Red Team assessments.&lt;/p&gt;
+
+&lt;p&gt;Stolen tools may be disclosed by hackers soon. According to FireEye, “none of the tools contain zero-day exploits” and the tools are leveraging well-known CVEs. However, in the case of disclosure of the tools, the popularity of the vulnerabilities used by the tools will be increased among threat actors and exploited widely.&lt;/p&gt;
+
+&lt;p&gt;Here is the list of vulnerabilities FireEye tools use:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vulmon.com/vulnerabilitydetails?qid=CVE-2019-11510&quot;&gt;CVE-2019-11510&lt;/a&gt;: Pulse Secure Pulse Connect Secure unauthenticated path traversal&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vulmon.com/vulnerabilitydetails?qid=CVE-2020-1472&quot;&gt;CVE-2020-1472&lt;/a&gt;: Microsoft Active Directory privilege escalation vulnerability is also known as &lt;strong&gt;Zerologon&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vulmon.com/vulnerabilitydetails?qid=CVE-2018-13379&quot;&gt;CVE-2018-13379&lt;/a&gt;: Fortinet Fortigate SSL VPN unauthenticated path traversal&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vulmon.com/vulnerabilitydetails?qid=CVE-2018-15961&quot;&gt;CVE-2018-15961&lt;/a&gt;: Adobe ColdFusion remote code execution vulnerability&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vulmon.com/vulnerabilitydetails?qid=CVE-2019-0604&quot;&gt;CVE-2019-0604&lt;/a&gt;: Microsoft SharePoint remote code execution vulnerability&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vulmon.com/vulnerabilitydetails?qid=CVE-2019-0708&quot;&gt;CVE-2019-0708&lt;/a&gt;: Microsoft Windows Remote Desktop Services (RDS) remote code execution vulnerability also known as &lt;strong&gt;BlueKeep&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vulmon.com/vulnerabilitydetails?qid=CVE-2019-11580&quot;&gt;CVE-2019-11580&lt;/a&gt;: Atlassian Crowd remote code execution vulnerability&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vulmon.com/vulnerabilitydetails?qid=CVE-2019-19781&quot;&gt;CVE-2019-19781&lt;/a&gt;: Citrix Application Delivery Controller and Citrix Gateway remote code execution vulnerability&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vulmon.com/vulnerabilitydetails?qid=CVE-2020-10189&quot;&gt;CVE-2020-10189&lt;/a&gt; – RCE for ZoHo ManageEngine Desktop Central remote code execution vulnerability&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vulmon.com/vulnerabilitydetails?qid=CVE-2014-1812&quot;&gt;CVE-2014-1812&lt;/a&gt;: Microsoft Windows local privilege escalation&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vulmon.com/vulnerabilitydetails?qid=CVE-2019-3398&quot;&gt;CVE-2019-3398&lt;/a&gt;: Atlassian Confluence authenticated remote code execution&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vulmon.com/vulnerabilitydetails?qid=CVE-2020-0688&quot;&gt;CVE-2020-0688&lt;/a&gt;: Microsoft Exchange remote code execution&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vulmon.com/vulnerabilitydetails?qid=CVE-2016-0167&quot;&gt;CVE-2016-0167&lt;/a&gt;: Local privilege escalation on older versions of Microsoft Windows&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vulmon.com/vulnerabilitydetails?qid=CVE-2017-11774&quot;&gt;CVE-2017-11774&lt;/a&gt;: Remote code execution in Microsoft Outlook via specially crafted URI (phishing) also known as Microsoft Outlook Security Feature Bypass Vulnerability&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vulmon.com/vulnerabilitydetails?qid=CVE-2018-8581&quot;&gt;CVE-2018-8581&lt;/a&gt;: Microsoft Exchange Server elevation of privilege vulnerability&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vulmon.com/vulnerabilitydetails?qid=CVE-2019-8394&quot;&gt;CVE-2019-8394&lt;/a&gt;: Zoho ManageEngine ServiceDesk Plus (SDP) unauthenticated file upload&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 22 Jul 2020 00:00:00 +0300</pubDate>
+        <link>http://midan-jekyll.aspirethemes.com/vulmon/alerts/2020/07/22/here-are-vulnerabilities-used-by-stolen-fireeye-tools/</link>
+        <guid isPermaLink="true">http://midan-jekyll.aspirethemes.com/vulmon/alerts/2020/07/22/here-are-vulnerabilities-used-by-stolen-fireeye-tools/</guid>
+      </item>
     
       <item>
         <title>Introducing Vulmon Alerts: A Proactive Vulnerability Detection Approach</title>
