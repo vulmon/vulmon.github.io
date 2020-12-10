@@ -8,7 +8,7 @@ tags: [vulmon, vulnerability intelligence, vulnerability, fireeye, fireeye hacke
 image: '/images/posts/fireeye_hacked.png'
 ---
 
-Cybersecurity firm FireEye [disclosed](https://www.fireeye.com/blog/products-and-services/2020/12/fireeye-shares-details-of-recent-cyber-attack-actions-to-protect-community.html) that they have been hacked, and their tools were stolen by attackers. These tools are used by FireEye for Red Team assessments.
+Cybersecurity firm FireEye [disclosed](https://www.fireeye.com/blog/products-and-services/2020/12/fireeye-shares-details-of-recent-cyber-attack-actions-to-protect-community.html) that they have been hacked, and their tools have been stolen by attackers. These tools are used by FireEye for Red Team assessments.
 
 Stolen tools may be disclosed by hackers soon. According to FireEye, "none of the tools contain zero-day exploits" and the tools are leveraging well-known CVEs. However, in the case of disclosure of the tools, the popularity of the vulnerabilities used by the tools will be increased among threat actors and exploited widely.
 
