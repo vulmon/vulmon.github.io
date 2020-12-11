@@ -10,7 +10,7 @@ title:            Vulmon Blog
 email:            info@vulmon.com
 description:      Vulmon Blog. Vulmon is a vulnerability and exploit search engine with vulnerability intelligence features.
 baseurl:          '' # The subpath of your site, e.g. /blog
-url:              'http://midan-jekyll.aspirethemes.com' # The base hostname & protocol for your site
+url:              'https://blog.vulmon.com' # The base hostname & protocol for your site
 github_username:  vulmon
 twitter_username: vulmoncom
 

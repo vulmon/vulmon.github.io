@@ -3,10 +3,10 @@
   <channel>
     <title>Vulmon Blog</title>
     <description>Vulmon Blog. Vulmon is a vulnerability and exploit search engine with vulnerability intelligence features.</description>
-    <link>http://midan-jekyll.aspirethemes.com/</link>
-    <atom:link href="http://midan-jekyll.aspirethemes.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 10 Dec 2020 21:15:04 +0300</pubDate>
-    <lastBuildDate>Thu, 10 Dec 2020 21:15:04 +0300</lastBuildDate>
+    <link>https://blog.vulmon.com/</link>
+    <atom:link href="https://blog.vulmon.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 11 Dec 2020 14:39:53 +0300</pubDate>
+    <lastBuildDate>Fri, 11 Dec 2020 14:39:53 +0300</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
 
     
@@ -46,8 +46,8 @@ aaa.textContent=&quot;Dec 12, 2020&quot;
 
 </description>
         <pubDate>Wed, 22 Jul 2020 00:00:00 +0300</pubDate>
-        <link>http://midan-jekyll.aspirethemes.com/vulmon/alerts/2020/07/22/vulnerabilities-used-by-stolen-fireeye-tools/</link>
-        <guid isPermaLink="true">http://midan-jekyll.aspirethemes.com/vulmon/alerts/2020/07/22/vulnerabilities-used-by-stolen-fireeye-tools/</guid>
+        <link>https://blog.vulmon.com/vulmon/alerts/2020/07/22/vulnerabilities-used-by-stolen-fireeye-tools/</link>
+        <guid isPermaLink="true">https://blog.vulmon.com/vulmon/alerts/2020/07/22/vulnerabilities-used-by-stolen-fireeye-tools/</guid>
       </item>
     
       <item>
@@ -74,8 +74,8 @@ aaa.textContent=&quot;Dec 12, 2020&quot;
 
 </description>
         <pubDate>Wed, 22 Jul 2020 00:00:00 +0300</pubDate>
-        <link>http://midan-jekyll.aspirethemes.com/vulmon/alerts/2020/07/22/introducing-vulmon-alerts-a-proactive-vulnerability-detection-approach/</link>
-        <guid isPermaLink="true">http://midan-jekyll.aspirethemes.com/vulmon/alerts/2020/07/22/introducing-vulmon-alerts-a-proactive-vulnerability-detection-approach/</guid>
+        <link>https://blog.vulmon.com/vulmon/alerts/2020/07/22/introducing-vulmon-alerts-a-proactive-vulnerability-detection-approach/</link>
+        <guid isPermaLink="true">https://blog.vulmon.com/vulmon/alerts/2020/07/22/introducing-vulmon-alerts-a-proactive-vulnerability-detection-approach/</guid>
       </item>
     
       <item>
@@ -88,8 +88,8 @@ aaa.textContent=&quot;Dec 12, 2020&quot;
 
 </description>
         <pubDate>Tue, 14 Jul 2020 00:00:00 +0300</pubDate>
-        <link>http://midan-jekyll.aspirethemes.com/vulmap/2020/07/14/vulmap-online-local-vulnerability-scanners-project/</link>
-        <guid isPermaLink="true">http://midan-jekyll.aspirethemes.com/vulmap/2020/07/14/vulmap-online-local-vulnerability-scanners-project/</guid>
+        <link>https://blog.vulmon.com/vulmap/2020/07/14/vulmap-online-local-vulnerability-scanners-project/</link>
+        <guid isPermaLink="true">https://blog.vulmon.com/vulmap/2020/07/14/vulmap-online-local-vulnerability-scanners-project/</guid>
       </item>
     
       <item>
@@ -104,8 +104,8 @@ aaa.textContent=&quot;Dec 12, 2020&quot;
 
 </description>
         <pubDate>Tue, 07 Jul 2020 01:00:00 +0300</pubDate>
-        <link>http://midan-jekyll.aspirethemes.com/vulmon/search/2020/07/07/introducing-vulmon-search/</link>
-        <guid isPermaLink="true">http://midan-jekyll.aspirethemes.com/vulmon/search/2020/07/07/introducing-vulmon-search/</guid>
+        <link>https://blog.vulmon.com/vulmon/search/2020/07/07/introducing-vulmon-search/</link>
+        <guid isPermaLink="true">https://blog.vulmon.com/vulmon/search/2020/07/07/introducing-vulmon-search/</guid>
       </item>
     
   </channel>
